@@ -1,106 +1,137 @@
-.wrapper-menu{
-  display: flex;
-  text-align: center;
-  background-color: #1a2b3c;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2em;
-
-}
-
-.logo-navbar {
-  display: flex;
-  align-items: center;
-}
-
-.logo-img {
-  max-height: 10em;
-  max-width: 5em; 
-  margin: auto;
-  object-fit: contain;
-}
-
-.wrapper-menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-}
-
-.menu ul {
-  list-style: none;
-  display: flex;
-}
-
-.menu li {
-  margin-right: 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-}
-
-.buttons {
-  display: flex;
-}
-
-.button1 {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .logo-navbar {
-    margin-right: auto;
-    margin-left: 10px;
-  }
-
+@media (min-width: 1280px) {
   .wrapper-menu {
-    flex-grow: 1;
-    justify-content: center;
-  }
-
-  .button1 {
-    display: block;
-  }
-
-  .button2 {
-    margin-left: 10px;
-  }
-
-  .menu-burger {
-    display: none;
-  }
-}
-
-@media (max-width: 767px) {
-  .logo-navbar {
+    display: flex;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: #1a2b3c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 2em 0.5em 2em;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 999; /* Ajouter un z-index pour s'assurer que le menu reste au-dessus du contenu lors du défilement */
   }
 
-  .menu {
-    display: none;
+  .logo-navbar {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 25%;
   }
 
-  .buttons {
-    margin-left: auto;
+  .logo-img {
+    max-height: 10vh;
+    min-height: 3em;
+    max-width: auto;
+    object-fit: contain;
+    padding: 0.3em;
+  }
+
+  .logo-img2 {
+    max-width: 12em;
+    min-width: 8em;
+    object-fit: contain;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .wrapper-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .wrapper-language-reservation {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-left: 1em;
+    width: 25%;
+  }
+
+  .button-wrapper-reservation {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .button-wrapper-language {
+    display: flex;
+    max-width: 30px;
+    min-width: 15px;
+
+    height: auto;
+    max-height: 6vh;
   }
 
   .menu-burger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .menu-burger span {
-    display: block;
-    width: 30px;
-    height: 4px;
-    background-color: #333;
-    margin-bottom: 5px;
+    display: none;
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1280px) {
+  .wrapper-menu {
+    display: flex;
+    text-align: center;
+    background-color: #1a2b3c;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 2em 0.5em 2em;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 999; /* Ajouter un z-index pour s'assurer que le menu reste au-dessus du contenu lors du défilement */
+  }
+
+  .logo-navbar {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 25%;
+  }
+
+  .logo-img {
+    max-height: 10vh;
+    min-height: 3em;
+    max-width: auto;
+    object-fit: contain;
+    padding: 0.3em;
+  }
+
+  .logo-img2 {
+    display: none;
+  }
+
+  .wrapper-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .wrapper-language-reservation {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-left: 1em;
+    width: 25%;
+  }
+
+  .button-wrapper-reservation {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .button-wrapper-language {
+    display: flex;
+    max-width: 30px;
+    min-width: 15px;
+
+    height: auto;
+    max-height: 6vh;
+  }
+
+  .menu-burger {
+    display: none;
+  }
+}
