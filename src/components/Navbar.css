@@ -230,9 +230,9 @@
     min-width: 30px;
   }
 }
-/* taille en dessous de 720px */
+/* taille entre 360px de 720px */
 
-@media (max-width: 720px) {
+@media (min-width: 360px) and (max-width: 720px) {
   .wrapper-menu {
     display: flex;
     text-align: center;
@@ -295,6 +295,77 @@
     min-width: 15px;
     height: auto;
     max-height: 6vh;
+  }
+
+  .lottie-burger-menu svg {
+    display: flex;
+    max-width: 30px;
+    min-width: 30px;
+  }
+}
+
+/* taille en dessous de 360px */
+
+@media (max-width: 360px) {
+
+  .wrapper-menu {
+    display: flex;
+    text-align: center;
+    background: radial-gradient(closest-side, #2d5074 30%, #1a2b3c 70%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 2em 0.5em 2em;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1000;
+  }
+
+  .logo-navbar {
+    display: flex;
+    justify-content: left;
+    width: 60%;
+  }
+
+  .logo-img {
+    max-height: 10vh;
+    min-height: 3em;
+    max-width: auto;
+    object-fit: contain;
+    padding: 0.3em;
+  }
+
+  .logo-img2 {
+    max-width: 8em;
+    min-width: 6em;
+    object-fit: contain;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .wrapper-nav {
+    display: none;
+  }
+
+  .wrapper-language-reservation {
+    display: flex;
+    justify-content: right;
+    padding-left: 1em;
+    width: 20%;
+  }
+  .div-RestaurantMenuOutlinedIcon {
+    display: none;
+  }
+
+  .div-flagicon {
+    display: flex;
+  }
+
+  .div-wrapper-language {
+    display: none;
+  }
+
+  .button-wrapper-language {
+    display: none;
   }
 
   .lottie-burger-menu svg {

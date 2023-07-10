@@ -1,0 +1,21 @@
+
+@media (min-width: 720px) {
+.video-container {
+  border: 0px;
+  padding: 5vh 0 0 0;
+  margin: 0px;
+  width: 100%;
+  position: relative;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .video-container {
+    border: 0px;
+    padding: 11vh 0 0 0;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    }
+  }

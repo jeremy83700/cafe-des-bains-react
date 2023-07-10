@@ -1,0 +1,70 @@
+.brasserie-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+[data-scroll-section] {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #000;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  color: #000;
+  margin: 0;
+}
+.brasserie-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+[data-scroll-section] {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #000;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #000;
+  margin: 0;
+}
+
+p {
+  font-size: 2rem;
+  color: #000;
+  margin: 0;
+}
